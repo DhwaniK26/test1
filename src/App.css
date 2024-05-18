@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.upper-contain{
+   height: 400px;
+   width: 100%;
+   background-color: #d5a7f5;
+   align-items: center;
+   display: flex;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-box{
+  font-size: 50px;
+ 
+  color:rgb(19, 19, 72);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.para{
+   font-size: 22px;
+   color: grey;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.inner-para{
+   width: 1200px;
+}
+
+.boxes-div{
+   background-color:rgb(19, 19, 72); ;
+}
+
+.line{
   color: white;
+  font-size: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.slider-box{
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-div{
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.cgrP_DStbLIPWhsjZKju_AHaEo&pid=Api&P=0&h=180");
+  height: 700px;
+  width:100%;
+  background-size: cover;
+}
+
+.startergy{
+  font-size: 40px;
+  line-height: 55px;
+  color:rgb(19, 19, 72); ;
+  
+}
+
+.strat-div{
+  display:flex;
+  flex-wrap: wrap;
+  background-color: #f6f5f3;
+}
+
+.footer-div{
+  background-color: rgb(19, 19, 72); 
 }

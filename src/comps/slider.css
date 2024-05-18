@@ -1,0 +1,30 @@
+.carousel {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .btn-prev {
+    left: 0;
+  }
+  
+  .btn-next {
+    right: 0;
+  }
+  
